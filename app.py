@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-mpg = pd.read_csv("D:/datasets/auto-mpg.csv")
+mpg = pd.read_csv("auto-mpg.csv")
 
 st.header("MPG Prediction Model")
 
